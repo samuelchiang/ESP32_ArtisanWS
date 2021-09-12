@@ -152,7 +152,7 @@ void line_notify(String message){
   HTTPClient http;
   http.begin(serverName);
   http.addHeader("Content-Type", "application/x-www-form-urlencoded");
-  http.addHeader("Authorization", "Bearer 83lWzRyxKV5BtMu54VBEOZb7UNUDZYjylnq5yz1o7gi");
+  http.addHeader("Authorization", "Bearer xxxxx");
   int httpResponseCode = http.POST(httpRequestData);
   Serial.print("Line Notify HTTP Response code: ");
   Serial.println(httpResponseCode);
